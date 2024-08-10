@@ -1,4 +1,4 @@
-const widthDevider = 3.2;
+const widthDevider = 3.5;
 const heightDevider = 2.4;
 
 const alphaChart = document.getElementById("alpha_chart");
