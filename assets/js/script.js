@@ -2,7 +2,6 @@ const widthDevider = 3.5;
 const heightDevider = 2.4;
 
 const alphaChart = document.getElementById("alpha_chart");
-// alphaChart.setAttribute("height", window.screen.height / heightDevider);
 alphaChart.setAttribute("width", window.screen.width / widthDevider);
 
 const betaChart = document.getElementById("beta_chart");

@@ -29,12 +29,16 @@ ws.onmessage = function (event) {
     const receivedData = JSON.parse(event.data);
     const now = new Date();
 
-    data.push({ time: now, value: receivedData.ch1 }); // Choose ch1, ch2, ch3, or ch4
+    data.push({
+        time: now,
+        value: getAverageGammaValue(receivedData._gamma_readings)
+    });
 
     if (data.length > 100) data.shift();  // Limit data points
 
     x.domain(d3.extent(data, d => d.time));
-    y.domain([d3.min(data, d => d.value), d3.max(data, d => d.value)]);
+    // y.domain([d3.min(data, d => d.value), d3.max(data, d => d.value)]);
+    y.domain([0, 1]);
 
     g.select(".axis--x").call(d3.axisBottom(x));
     g.select(".axis--y").call(d3.axisLeft(y));
@@ -46,6 +50,16 @@ ws.onmessage = function (event) {
         .attr("class", "line")
         .attr("d", line)
         .attr("fill", "none")
-        .attr("stroke", "steelblue")
-        .attr("stroke-width", 2);
+        .attr("stroke", "#FDE800")
+        .attr("stroke-width", 3);
 };
+
+
+function getAverageGammaValue(_gamma_readings) {
+    let sum = _gamma_readings['TP9']
+        + _gamma_readings['AF7']
+        + _gamma_readings['AF8']
+        + _gamma_readings['TP10'];
+    console.log(sum / 4)
+    return (sum / 4)
+}

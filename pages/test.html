@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test File</title>
+</head>
+
+<body>
+    <button id="ws_active">Connect</button>
+
+    <script>
+        const wsActiveButton = document.getElementById('ws_active');
+        wsActiveButton.addEventListener('click', () => {
+            const ws = new WebSocket('ws://localhost:6789');
+            ws.onmessage = function (event) {
+                const receivedData = JSON.parse(event.data);
+                // const now = new Date().getTime();
+                console.log(receivedData._alpha_readings);
+            }
+        })
+    </script>
+</body>
+
+</html>
