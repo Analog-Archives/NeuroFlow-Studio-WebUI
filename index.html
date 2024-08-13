@@ -13,6 +13,7 @@
 
   <!-- stylesheet -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/navbar_style.css">
 
   <!-- scripts -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -29,34 +30,45 @@
 </head>
 
 <body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">NeuroFlow Studio</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Configuration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/eeg_charts.html">EEG Charts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/record_studio.html">Record Studio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/data_studio.html">Data Studio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/osc_server.html">OSC Server</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/device_details.html">Device Details</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <!-- charts wrapper -->
-  <div class="container-fluid">
-    <h4>Real-time Data Visualization</h4>
+  <div class="container-fluid universal-container">
     <div id="charts_wrapper">
-      <div class="chart_block">
-        <span>Alpha Brain Waves</span>
-        <svg id="alpha_chart" width="620" height="450"></svg>
-      </div>
-
-      <div class="chart_block">
-        <span>Beta Brain Waves</span>
-        <svg id="beta_chart" width="620" height="450"></svg>
-      </div>
-
-      <div class="chart_block">
-        <span>Gamma Brain Waves</span>
-        <svg id="gamma_chart" width="620" height="450"></svg>
-      </div>
-
-      <div class="chart_block">
-        <span>Theta Brain Waves</span>
-        <svg id="theta_chart" width="620" height="450"></svg>
-      </div>
-
-      <div class="chart_block">
-        <span>Delta Brain Waves</span>
-        <svg id="delta_chart" width="620" height="450"></svg>
-      </div>
+      <p>Config Page</p>
     </div>
   </div>
 </body>

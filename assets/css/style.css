@@ -3,40 +3,12 @@
 body {
     overflow-x: hidden;
     background: rgb(0, 0, 0) !important;
-    padding: 20px;
+    /* padding: 20px; */
     font-family: 'Nunito';
 }
 
-#charts_wrapper {
-    left: 0;
-    top: 0;
-    min-width: 100%;
-    background-color: rgb(0, 0, 0);
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
-}
-
-.chart_block {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    width: 99%;
-    margin-top: 8px;
-    overflow-x: auto;
-    border-radius: 8px;
-    background-color: rgb(12, 12, 12);
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.chart_block span {
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: capitalize;
-    padding-left: 45px;
-    padding-top: 20px;
-}
-
-.chart_block svg {
-    margin-top: 10px;
+.universal-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
 }

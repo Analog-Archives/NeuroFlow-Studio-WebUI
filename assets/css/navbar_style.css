@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #0A0A0A;
+    height: 55px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.navbar-brand {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-item {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.nav-link {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
