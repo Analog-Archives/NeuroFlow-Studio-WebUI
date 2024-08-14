@@ -25,8 +25,8 @@
     border-radius: 8px;
 }
 
-.selection-card:nth-child(2) {
-    margin: 7px;
+a:nth-child(2) {
+    margin: 5px;
 }
 
 .selection-card .icon {
