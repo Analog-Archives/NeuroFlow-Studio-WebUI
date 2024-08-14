@@ -29,7 +29,7 @@
     border: none;
     background-color: #0A0A0A;
     height: 50px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 #promptbox_wrapper input::placeholder {
