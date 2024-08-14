@@ -1,11 +1,15 @@
+.universal-container {
+    margin-top: 20px;
+}
+
 #data_studio_wrapper {
     width: 70%;
-    height: calc(100vh - 95px);
+    height: calc(100vh - 75px);
     /* background-color: darkblue */
 }
 
 #chatbox_wrapper {
-    height: calc((100vh - 95px) * .9);
+    height: calc((100vh - 75px) * .9);
     /* border: 1px solid yellow; */
     overflow-x: hidden;
     overflow-y: auto;
@@ -16,16 +20,16 @@
 }
 
 #promptbox_wrapper {
-    height: calc((100vh - 95px) * .1);
+    height: calc((100vh - 75px) * .1);
     /* border: 1px solid green; */
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 #promptbox_wrapper input {
     border: none;
     background-color: #0A0A0A;
     height: 50px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 #promptbox_wrapper input::placeholder {
