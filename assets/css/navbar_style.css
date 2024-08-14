@@ -6,6 +6,7 @@
 }
 
 .navbar-brand {
+    color: white;
     font-size: 14px;
     font-weight: 500;
 }
@@ -18,5 +19,16 @@
 .nav-link {
     font-size: 14px;
     font-weight: 500;
-    color: white;
+    color: rgb(182, 182, 182);
+}
+
+.nav-link:hover {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(217, 217, 217);
+}
+
+.active {
+    font-weight: 600;
+    color: white !important;
 }

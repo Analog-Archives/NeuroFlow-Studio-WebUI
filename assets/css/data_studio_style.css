@@ -2,6 +2,55 @@
     margin-top: 20px;
 }
 
+/* selection wrapper stylings */
+#chat-selction-wrapper {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    /* background-color: darkblue; */
+    width: 100%;
+    text-align: center;
+}
+
+.selection-card {
+    color: white;
+    width: 300px;
+    background-color: #0A0A0A;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 5px;
+    border-radius: 8px;
+}
+
+a:nth-child(2) {
+    margin: 5px;
+}
+
+.selection-card .icon {
+    transition: all .19s ease-in-out;
+}
+
+.selection-card:hover .icon {
+    transition: all .19s ease-in-out;
+    margin-left: 20px !important;
+}
+
+.selection-card p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.selection-card span {
+    font-weight: 300;
+    font-size: 14px;
+    opacity: .8;
+}
+
+/* end of selection wrapper stylings */
+
 #data_studio_wrapper {
     width: 70%;
     height: calc(100vh - 75px);
@@ -30,9 +79,23 @@
     background-color: #0A0A0A;
     height: 50px;
     border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#send-button {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(221, 221, 221);
+    width: 6%;
+    border-radius: 8px;
+    margin-left: 8px;
 }
 
 #promptbox_wrapper input::placeholder {
     font-size: 14px;
-    font-weight: 250;
+    font-weight: 500;
+    color: rgb(91, 91, 91);
 }

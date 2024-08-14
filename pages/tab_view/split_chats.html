@@ -12,18 +12,18 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- stylesheet -->
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/navbar_style.css">
-    <link rel="stylesheet" href="../assets/css/data_studio_style.css">
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel="stylesheet" href="../../../assets/css/navbar_style.css">
+    <link rel="stylesheet" href="../../../assets/css/data_studio_style.css">
 
     <!-- scripts -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <!-- all charts -->
-    <script type="module" src="../assets/js/charts/alpha-chart.js"></script>
-    <script type="module" src="../assets/js/charts/beta-chart.js"></script>
-    <script type="module" src="../assets/js/charts/gamma-chart.js"></script>
-    <script type="module" src="../assets/js/charts/delta-chart.js"></script>
-    <script type="module" src="../assets/js/charts/theta-chart.js"></script>
+    <script type="module" src="../../../assets/js/charts/alpha-chart.js"></script>
+    <script type="module" src="../../../assets/js/charts/beta-chart.js"></script>
+    <script type="module" src="../../../assets/js/charts/gamma-chart.js"></script>
+    <script type="module" src="../../../assets/js/charts/delta-chart.js"></script>
+    <script type="module" src="../../../assets/js/charts/theta-chart.js"></script>
 
     <!-- configs -->
     <script type="module" src="../assets/js/script.js"></script>
@@ -66,44 +66,22 @@
         </div>
     </nav>
 
-    <!-- selection tab wrapper -->
-    <div id="chat-selction-wrapper">
-        <a href="/pages/tab_view/df_chat.html" style="text-decoration: none;">
-            <card type="button" class="shadow-none selection-card">
+    <!-- charts wrapper -->
+    <div class="container-fluid universal-container">
+        <div id="data_studio_wrapper" class="mx-auto d-block">
+            <div id="chatbox_wrapper">
+            </div>
+
+            <div id="promptbox_wrapper" class="my-auto">
                 <div style="display: flex;">
-                    <p>Explore your Dataset</p>
-                    <span class="icon" style="margin-top: -1px; margin-left: 15px; font-size: 17px;">→</span>
+                    <div class="input-group">
+                        <input type="text" class="form-control shadow-none" placeholder="Ask anything"
+                            aria-label="Ask anything" aria-describedby="basic-addon1">
+                    </div>
+                    <button class="btn shadow-none" id="send-button">Send</button>
                 </div>
-                <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eligendi praesentium facere perspiciatis
-                </span>
-            </card>
-        </a>
-        <a href="/pages/tab_view/vision_chat.html" style="text-decoration: none;">
-            <card type="button" class="shadow-none selection-card">
-                <div style="display: flex;">
-                    <p>Explore your Spectrogram</p>
-                    <span class="icon" style="margin-top: -1px; margin-left: 15px; font-size: 17px;">→</span>
-                </div>
-                <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eligendi praesentium facere perspiciatis
-                </span>
-            </card>
-        </a>
-        <a href="/pages/tab_view/split_chats.html" style="text-decoration: none;">
-            <card type="button" class="shadow-none selection-card">
-                <div style="display: flex;">
-                    <p>Split Screens</p>
-                    <span class="icon" style="margin-top: -1px; margin-left: 15px; font-size: 17px;">→</span>
-                </div>
-                <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eligendi praesentium facere perspiciatis
-                </span>
-            </card>
-        </a>
+            </div>
+        </div>
     </div>
 
 
