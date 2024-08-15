@@ -1,0 +1,1844 @@
+{
+    "_id": "66bd4c07147939e0dfe7581a",
+    "settings": {
+        "licence": "none"
+    },
+    "ops": [
+        {
+            "opId": "f1029550-d877-42da-9b1e-63a5163a0350",
+            "id": "hhph0ntpf",
+            "uiAttribs": {
+                "history": {
+                    "createdAt": 1723703851533,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723703851533,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": -228,
+                    "y": -501.6628842505396
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Max Pixel Density (DPR)",
+                    "value": 2
+                },
+                {
+                    "name": "FPS Limit",
+                    "value": 0
+                },
+                {
+                    "name": "Reduce FPS unfocussed",
+                    "value": 0
+                },
+                {
+                    "name": "Transparent",
+                    "value": 0
+                },
+                {
+                    "name": "Active",
+                    "value": 1
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "trigger",
+                    "links": [
+                        {
+                            "portIn": "render",
+                            "portOut": "trigger",
+                            "objIn": "yoayv5z3k",
+                            "objOut": "hhph0ntpf"
+                        }
+                    ]
+                },
+                {
+                    "name": "width",
+                    "value": 647
+                },
+                {
+                    "name": "height",
+                    "value": 548
+                },
+                {
+                    "name": "Pixel Density",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "opId": "19b441eb-9f63-4f35-ba08-b87841517c4d",
+            "id": "yoayv5z3k",
+            "uiAttribs": {
+                "history": {
+                    "createdAt": 1723703857633,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723726454431,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": -228,
+                    "y": -439.0742615618385
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "r",
+                    "value": 0.0392156862745098
+                },
+                {
+                    "name": "g",
+                    "value": 0.0392156862745098
+                },
+                {
+                    "name": "b",
+                    "value": 0.0392156862745098
+                },
+                {
+                    "name": "a",
+                    "value": 1
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "trigger",
+                    "links": [
+                        {
+                            "portIn": "render",
+                            "portOut": "trigger",
+                            "objIn": "ylhd9opet",
+                            "objOut": "yoayv5z3k"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "a466bc1f-06e9-4595-8849-bffb9fe22f99",
+            "id": "xludmtiv2",
+            "uiAttribs": {
+                "resizable": true,
+                "resizableY": false,
+                "stretchPorts": true,
+                "history": {
+                    "createdAt": 1723703869697,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723703869697,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": -228,
+                    "y": -292.70794432483854
+                }
+            },
+            "portsOut": [
+                {
+                    "name": "trigger 0",
+                    "links": [
+                        {
+                            "portIn": "Trigger In",
+                            "portOut": "trigger 0",
+                            "objIn": "tr894n5g1",
+                            "objOut": "xludmtiv2"
+                        }
+                    ]
+                },
+                {
+                    "name": "trigger 1",
+                    "links": [
+                        {
+                            "portIn": "Update",
+                            "portOut": "trigger 1",
+                            "objIn": "rbnkf4qxg",
+                            "objOut": "xludmtiv2"
+                        }
+                    ]
+                },
+                {
+                    "name": "trigger 2",
+                    "links": [
+                        {
+                            "portIn": "Update",
+                            "portOut": "trigger 2",
+                            "objIn": "r0mehgg7i",
+                            "objOut": "xludmtiv2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "0655b098-d2a8-4ce2-a0b9-ecb2c78f873a",
+            "id": "ylhd9opet",
+            "uiAttribs": {
+                "history": {
+                    "createdAt": 1723703936493,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723725202612,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": -228,
+                    "y": -368.9029260864221
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "min distance",
+                    "value": 1
+                },
+                {
+                    "name": "max distance",
+                    "value": 999999
+                },
+                {
+                    "name": "min rot y",
+                    "value": 0
+                },
+                {
+                    "name": "max rot y",
+                    "value": 0
+                },
+                {
+                    "name": "initial radius",
+                    "value": 2
+                },
+                {
+                    "name": "initial axis y",
+                    "value": 0.5
+                },
+                {
+                    "name": "initial axis x",
+                    "value": 0.25
+                },
+                {
+                    "name": "Smoothness",
+                    "value": 1
+                },
+                {
+                    "name": "Speed X",
+                    "value": 1
+                },
+                {
+                    "name": "Speed Y",
+                    "value": 1
+                },
+                {
+                    "name": "Active",
+                    "value": 1
+                },
+                {
+                    "name": "Allow Panning",
+                    "value": 1
+                },
+                {
+                    "name": "Allow Zooming",
+                    "value": 1
+                },
+                {
+                    "name": "Allow Rotation",
+                    "value": 1
+                },
+                {
+                    "name": "restricted",
+                    "value": 1
+                },
+                {
+                    "name": "Identity",
+                    "value": 1
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "trigger",
+                    "links": [
+                        {
+                            "portIn": "exe",
+                            "portOut": "trigger",
+                            "objIn": "xludmtiv2",
+                            "objOut": "ylhd9opet"
+                        }
+                    ]
+                },
+                {
+                    "name": "radius",
+                    "value": 2
+                },
+                {
+                    "name": "Rot X",
+                    "value": 90
+                },
+                {
+                    "name": "Rot Y",
+                    "value": 90
+                }
+            ]
+        },
+        {
+            "opId": "50e7f565-0cdb-47ca-912b-87c04e2f00e3",
+            "id": "q2s729dvt",
+            "uiAttribs": {
+                "history": {
+                    "createdAt": 1723704013281,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723727264266,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": -228,
+                    "y": 747.8394242879203
+                },
+                "disabled": false
+            },
+            "portsIn": [
+                {
+                    "name": "scale",
+                    "value": 0.63
+                },
+                {
+                    "name": "x",
+                    "value": 1
+                },
+                {
+                    "name": "y",
+                    "value": 1
+                },
+                {
+                    "name": "z",
+                    "value": 1
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "trigger",
+                    "links": [
+                        {
+                            "portIn": "render",
+                            "portOut": "trigger",
+                            "objIn": "19m3ick78",
+                            "objOut": "q2s729dvt"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "e747dc72-8214-41ca-9aae-9041f20dd6ac",
+            "id": "herqm3k79",
+            "uiAttribs": {
+                "history": {
+                    "createdAt": 1723704026497,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723704037179,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": 355.92703274343086,
+                    "y": -344.4638704679894
+                },
+                "disabled": false
+            },
+            "portsIn": [
+                {
+                    "name": "URL",
+                    "value": "ws://localhost:6789"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Valid JSON",
+                    "value": 1
+                },
+                {
+                    "name": "Connected",
+                    "value": 1
+                },
+                {
+                    "name": "Raw Data",
+                    "links": [
+                        {
+                            "portIn": "JSON String",
+                            "portOut": "Raw Data",
+                            "objIn": "vilmaaxfu",
+                            "objOut": "herqm3k79"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "2ce8a4d3-37d3-4cdc-abd1-a560fbe841ee",
+            "id": "vilmaaxfu",
+            "uiAttribs": {
+                "history": {
+                    "createdAt": 1723704320874,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723704320874,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": 415.92703274343086,
+                    "y": -86.25664548716506
+                }
+            },
+            "portsOut": [
+                {
+                    "name": "Result",
+                    "links": [
+                        {
+                            "portIn": "Object",
+                            "portOut": "Result",
+                            "objIn": "4o17wovhw",
+                            "objOut": "vilmaaxfu"
+                        },
+                        {
+                            "portIn": "Object",
+                            "portOut": "Result",
+                            "objIn": "pq35lt8cs",
+                            "objOut": "vilmaaxfu"
+                        }
+                    ]
+                },
+                {
+                    "name": "Valid",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "opId": "d09bc53e-9f52-4872-94c7-4ef777512222",
+            "id": "4o17wovhw",
+            "uiAttribs": {
+                "height": 696.2010803642872,
+                "width": 555.0932075279318,
+                "resizable": true,
+                "vizLayerMaxZoom": 2500,
+                "history": {
+                    "createdAt": 1719329493427,
+                    "createdBy": {
+                        "name": "pandur"
+                    },
+                    "lastInteractionAt": 1723704383626,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": 1080.5747692840682,
+                    "y": 6.446784475675656
+                },
+                "extendTitle": null
+            },
+            "portsIn": [
+                {
+                    "name": "ZoomText",
+                    "value": 0
+                },
+                {
+                    "name": "Line Numbers",
+                    "value": 1
+                },
+                {
+                    "name": "Font Size",
+                    "value": 10
+                },
+                {
+                    "name": "Scroll",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "opId": "7d86cd28-f7d8-44a1-a4da-466c4782aaec",
+            "id": "efw7z7j4d",
+            "uiAttribs": {
+                "extendTitlePort": "Key",
+                "history": {
+                    "createdAt": 1723704424110,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723705550731,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": 417.81467798475285,
+                    "y": 141.66845534967845
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Key",
+                    "value": "Y"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Result",
+                    "links": [
+                        {
+                            "portIn": "String",
+                            "portOut": "Result",
+                            "objIn": "1dopn7fvf",
+                            "objOut": "efw7z7j4d"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "d1dfa305-89db-4ca1-b0ac-2d6321d76ae8",
+            "id": "pq35lt8cs",
+            "uiAttribs": {
+                "extendTitlePort": "Key",
+                "history": {
+                    "createdAt": 1723704974945,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723704989823,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": 417.81467798475285,
+                    "y": 37.44651094078421
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Key",
+                    "value": "_accelerometer_readings"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Result",
+                    "links": [
+                        {
+                            "portIn": "Object",
+                            "portOut": "Result",
+                            "objIn": "ulhdh8htx",
+                            "objOut": "pq35lt8cs"
+                        },
+                        {
+                            "portIn": "data",
+                            "portOut": "Result",
+                            "objIn": "efw7z7j4d",
+                            "objOut": "pq35lt8cs"
+                        },
+                        {
+                            "portIn": "data",
+                            "portOut": "Result",
+                            "objIn": "q1jinpcj2",
+                            "objOut": "pq35lt8cs"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "d09bc53e-9f52-4872-94c7-4ef777512222",
+            "id": "ulhdh8htx",
+            "uiAttribs": {
+                "height": 137.25085774021505,
+                "width": 223.85042777530157,
+                "resizable": true,
+                "vizLayerMaxZoom": 2500,
+                "history": {
+                    "createdAt": 1719329493427,
+                    "createdBy": {
+                        "name": "pandur"
+                    },
+                    "lastInteractionAt": 1723704383626,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": 830.2438820429364,
+                    "y": 553.3340965372438
+                },
+                "extendTitle": null
+            },
+            "portsIn": [
+                {
+                    "name": "ZoomText",
+                    "value": 0
+                },
+                {
+                    "name": "Line Numbers",
+                    "value": 1
+                },
+                {
+                    "name": "Font Size",
+                    "value": 10
+                },
+                {
+                    "name": "Scroll",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "opId": "8fb2bb5d-665a-4d0a-8079-12710ae453be",
+            "id": "iyxrjr4zm",
+            "uiAttribs": {
+                "history": {
+                    "createdAt": 1723705053333,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723705053333,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": 417.81467798475285,
+                    "y": 279.394524102304
+                }
+            },
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "number1",
+                            "portOut": "result",
+                            "objIn": "l0njh0dh2",
+                            "objOut": "iyxrjr4zm"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "fa36a56b-a64d-4269-9a9e-addc16493006",
+            "id": "1dopn7fvf",
+            "uiAttribs": {
+                "history": {
+                    "createdAt": 1723705064616,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723705064616,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": 417.81467798475285,
+                    "y": 207.31555603530217
+                }
+            },
+            "portsOut": [
+                {
+                    "name": "Number",
+                    "links": [
+                        {
+                            "portIn": "value",
+                            "portOut": "Number",
+                            "objIn": "iyxrjr4zm",
+                            "objOut": "1dopn7fvf"
+                        }
+                    ]
+                },
+                {
+                    "name": "Not a number",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "opId": "1c3fb776-fe52-4f4b-84a9-832e5a57f0fd",
+            "id": "wh6i6nqjf",
+            "uiAttribs": {
+                "history": {
+                    "createdAt": 1723705409342,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723705414290,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": -24,
+                    "y": -426.3579778999876
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Area index",
+                    "value": 2
+                },
+                {
+                    "name": "Area",
+                    "value": "Parent Element"
+                },
+                {
+                    "name": "Prevent Default",
+                    "value": 0
+                },
+                {
+                    "name": "Enabled",
+                    "value": 1
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "On Press",
+                    "links": [
+                        {
+                            "portIn": "Reset",
+                            "portOut": "On Press",
+                            "objIn": "ylhd9opet",
+                            "objOut": "wh6i6nqjf"
+                        }
+                    ]
+                },
+                {
+                    "name": "Key Code",
+                    "value": 90
+                },
+                {
+                    "name": "Key",
+                    "value": "Z"
+                }
+            ]
+        },
+        {
+            "opId": "1bbdae06-fbb2-489b-9bcc-36c9d65bd441",
+            "id": "l0njh0dh2",
+            "uiAttribs": {
+                "mathTitle": true,
+                "history": {
+                    "createdAt": 1723705618384,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723712668074,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": 417.81467798475285,
+                    "y": 365.39600131584393
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "number2",
+                    "value": 30
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "number1",
+                            "portOut": "result",
+                            "objIn": "rai0aqff5",
+                            "objOut": "l0njh0dh2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "5677b5b5-753a-4fbf-9e91-64c81ec68a2f",
+            "id": "rbnkf4qxg",
+            "uiAttribs": {
+                "history": {
+                    "createdAt": 1723705654753,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723712856391,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": -168,
+                    "y": 580.1642174023578
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Separate inc/dec",
+                    "value": 0
+                },
+                {
+                    "name": "Inc factor",
+                    "value": 4.5,
+                    "title": "Inc/Dec factor"
+                },
+                {
+                    "name": "Dec factor",
+                    "value": 4
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Result",
+                    "links": [
+                        {
+                            "portIn": "rotY",
+                            "portOut": "Result",
+                            "objIn": "19m3ick78",
+                            "objOut": "rbnkf4qxg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "1bbdae06-fbb2-489b-9bcc-36c9d65bd441",
+            "id": "rai0aqff5",
+            "uiAttribs": {
+                "mathTitle": true,
+                "history": {
+                    "createdAt": 1723706306171,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723719069873,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": -92.013560446525,
+                    "y": 506.52956172894346
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "number2",
+                    "value": 1
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "Value",
+                            "portOut": "result",
+                            "objIn": "rbnkf4qxg",
+                            "objOut": "rai0aqff5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "650baeb1-db2d-4781-9af6-ab4e9d4277be",
+            "id": "19m3ick78",
+            "uiAttribs": {
+                "history": {
+                    "createdAt": 1723706824088,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723726614965,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": -228,
+                    "y": 811.1119639460308
+                },
+                "disabled": false
+            },
+            "portsIn": [
+                {
+                    "name": "posX",
+                    "value": 0
+                },
+                {
+                    "name": "posY",
+                    "value": -0.19
+                },
+                {
+                    "name": "posZ",
+                    "value": 0
+                },
+                {
+                    "name": "scale",
+                    "value": 1.18
+                },
+                {
+                    "name": "rotZ",
+                    "value": 0
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "trigger",
+                    "links": [
+                        {
+                            "portIn": "Render",
+                            "portOut": "trigger",
+                            "objIn": "np1tnco3t",
+                            "objOut": "19m3ick78"
+                        },
+                        {
+                            "portIn": "render",
+                            "portOut": "trigger",
+                            "objIn": "gg3q1gr64",
+                            "objOut": "19m3ick78"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "0d83ed06-cdbe-4fe0-87bb-0ccece7fb6e1",
+            "id": "tr894n5g1",
+            "uiAttribs": {
+                "history": {
+                    "createdAt": 1723706824108,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723706824108,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": -228,
+                    "y": 319.0758686098235
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "R",
+                    "value": 0.45728182143081186
+                },
+                {
+                    "name": "G",
+                    "value": 0.5152554686321773
+                },
+                {
+                    "name": "B",
+                    "value": 0.6669711304298735
+                },
+                {
+                    "name": "A",
+                    "value": 1
+                },
+                {
+                    "name": "Enable",
+                    "value": 0
+                },
+                {
+                    "name": "Albedo",
+                    "value": 0.707
+                },
+                {
+                    "name": "Roughness",
+                    "value": 0.835
+                },
+                {
+                    "name": "Active",
+                    "value": 0
+                },
+                {
+                    "name": "Fresnel Intensity",
+                    "value": 0.7
+                },
+                {
+                    "name": "Fresnel Width",
+                    "value": 1
+                },
+                {
+                    "name": "Fresnel Exponent",
+                    "value": 6
+                },
+                {
+                    "name": "Fresnel R",
+                    "value": 1
+                },
+                {
+                    "name": "Fresnel G",
+                    "value": 1
+                },
+                {
+                    "name": "Fresnel B",
+                    "value": 1
+                },
+                {
+                    "name": "Emissive Active",
+                    "value": 0
+                },
+                {
+                    "name": "Color Intensity",
+                    "value": 0.3
+                },
+                {
+                    "name": "Emissive R",
+                    "value": 0.2657191070600835
+                },
+                {
+                    "name": "Emissive G",
+                    "value": 0.30034084727936095
+                },
+                {
+                    "name": "Emissive B",
+                    "value": 0.340143129212402
+                },
+                {
+                    "name": "Shininess",
+                    "value": 4
+                },
+                {
+                    "name": "Specular Amount",
+                    "value": 0
+                },
+                {
+                    "name": "Specular Model index",
+                    "value": 0
+                },
+                {
+                    "name": "Specular Model",
+                    "value": "Blinn"
+                },
+                {
+                    "name": "Energy Conservation",
+                    "value": 0
+                },
+                {
+                    "name": "Double Sided Material",
+                    "value": 0
+                },
+                {
+                    "name": "Falloff Mode index",
+                    "value": 0
+                },
+                {
+                    "name": "Falloff Mode",
+                    "value": "A"
+                },
+                {
+                    "name": "Colorize Texture",
+                    "value": 0
+                },
+                {
+                    "name": "Diffuse Repeat X",
+                    "value": 1
+                },
+                {
+                    "name": "Diffuse Repeat Y",
+                    "value": 1
+                },
+                {
+                    "name": "Texture Offset X",
+                    "value": 0
+                },
+                {
+                    "name": "Texture Offset Y",
+                    "value": 0
+                },
+                {
+                    "name": "Specular Intensity",
+                    "value": 1
+                },
+                {
+                    "name": "Normal Map Intensity",
+                    "value": 0.5
+                },
+                {
+                    "name": "AO Intensity",
+                    "value": 1
+                },
+                {
+                    "name": "AO UV Channel index",
+                    "value": 0
+                },
+                {
+                    "name": "AO UV Channel",
+                    "value": 1
+                },
+                {
+                    "name": "Emissive Intensity",
+                    "value": 1
+                },
+                {
+                    "name": "Emissive Mask Intensity",
+                    "value": 1
+                },
+                {
+                    "name": "Env Map Intensity",
+                    "value": 1
+                },
+                {
+                    "name": "Env Map Blend index",
+                    "value": 0
+                },
+                {
+                    "name": "Env Map Blend",
+                    "value": "Add"
+                },
+                {
+                    "name": "Env Mask Intensity",
+                    "value": 1
+                },
+                {
+                    "name": "Alpha Mask Source index",
+                    "value": 0
+                },
+                {
+                    "name": "Alpha Mask Source",
+                    "value": "Luminance"
+                },
+                {
+                    "name": "Discard Transparent Pixels",
+                    "value": 0
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Trigger Out",
+                    "links": [
+                        {
+                            "portIn": "render",
+                            "portOut": "Trigger Out",
+                            "objIn": "q2s729dvt",
+                            "objOut": "tr894n5g1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "7d86cd28-f7d8-44a1-a4da-466c4782aaec",
+            "id": "q1jinpcj2",
+            "uiAttribs": {
+                "extendTitlePort": "Key",
+                "history": {
+                    "createdAt": 1723704424110,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723706979935,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": 637.2025012626133,
+                    "y": 145.37829810479738
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Key",
+                    "value": "X"
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Result",
+                    "links": [
+                        {
+                            "portIn": "String",
+                            "portOut": "Result",
+                            "objIn": "pycusxto5",
+                            "objOut": "q1jinpcj2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "8fb2bb5d-665a-4d0a-8079-12710ae453be",
+            "id": "4ws8y1jcf",
+            "uiAttribs": {
+                "history": {
+                    "createdAt": 1723705053333,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723705053333,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": 637.2025012626133,
+                    "y": 283.10436685742286
+                }
+            },
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "number1",
+                            "portOut": "result",
+                            "objIn": "hgj4pzypb",
+                            "objOut": "4ws8y1jcf"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "fa36a56b-a64d-4269-9a9e-addc16493006",
+            "id": "pycusxto5",
+            "uiAttribs": {
+                "history": {
+                    "createdAt": 1723705064616,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723705064616,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": 637.2025012626133,
+                    "y": 211.025398790421
+                }
+            },
+            "portsOut": [
+                {
+                    "name": "Number",
+                    "links": [
+                        {
+                            "portIn": "value",
+                            "portOut": "Number",
+                            "objIn": "4ws8y1jcf",
+                            "objOut": "pycusxto5"
+                        }
+                    ]
+                },
+                {
+                    "name": "Not a number",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "opId": "1bbdae06-fbb2-489b-9bcc-36c9d65bd441",
+            "id": "hgj4pzypb",
+            "uiAttribs": {
+                "mathTitle": true,
+                "history": {
+                    "createdAt": 1723705618384,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723719162894,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": 637.2025012626133,
+                    "y": 369.11976129856134
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "number2",
+                    "value": 30
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "number1",
+                            "portOut": "result",
+                            "objIn": "hi80bc3wp",
+                            "objOut": "hgj4pzypb"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "5677b5b5-753a-4fbf-9e91-64c81ec68a2f",
+            "id": "r0mehgg7i",
+            "uiAttribs": {
+                "history": {
+                    "createdAt": 1723705654753,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723707037804,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": -47.213159867448375,
+                    "y": 580.4574932778361
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "Separate inc/dec",
+                    "value": 0
+                },
+                {
+                    "name": "Inc factor",
+                    "value": 50,
+                    "title": "Inc/Dec factor"
+                },
+                {
+                    "name": "Dec factor",
+                    "value": 50
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Result",
+                    "links": [
+                        {
+                            "portIn": "number1",
+                            "portOut": "Result",
+                            "objIn": "kl0meq8sy",
+                            "objOut": "r0mehgg7i"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "1bbdae06-fbb2-489b-9bcc-36c9d65bd441",
+            "id": "hi80bc3wp",
+            "uiAttribs": {
+                "mathTitle": true,
+                "history": {
+                    "createdAt": 1723706306171,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723719115479,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": 53.84928683011614,
+                    "y": 515.42482920637
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "number2",
+                    "value": 1
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "Value",
+                            "portOut": "result",
+                            "objIn": "r0mehgg7i",
+                            "objOut": "hi80bc3wp"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "c9cbb226-46f7-4ca6-8dab-a9d0bdca4331",
+            "id": "np1tnco3t",
+            "uiAttribs": {
+                "translate": {
+                    "x": -41.219776142245166,
+                    "y": 1080.4930857660627
+                },
+                "history": {
+                    "createdAt": 1723718860168,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723718860168,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "loading": false
+            },
+            "portsIn": [
+                {
+                    "name": "data",
+                    "value": ""
+                },
+                {
+                    "name": "glb File",
+                    "value": "assets/js/webgl/assets/human_head.glb",
+                    "display": "file"
+                },
+                {
+                    "name": "Draw",
+                    "value": 1
+                },
+                {
+                    "name": "Camera index",
+                    "value": 0
+                },
+                {
+                    "name": "Camera",
+                    "value": "None"
+                },
+                {
+                    "name": "Animation",
+                    "value": ""
+                },
+                {
+                    "name": "Center index",
+                    "value": 1
+                },
+                {
+                    "name": "Center",
+                    "value": "XYZ"
+                },
+                {
+                    "name": "Rescale",
+                    "value": 1
+                },
+                {
+                    "name": "Rescale Size",
+                    "value": 2.5
+                },
+                {
+                    "name": "Time",
+                    "value": 0
+                },
+                {
+                    "name": "Sync to timeline",
+                    "value": 0
+                },
+                {
+                    "name": "Loop",
+                    "value": 1
+                },
+                {
+                    "name": "Normals Format index",
+                    "value": 0
+                },
+                {
+                    "name": "Normals Format",
+                    "value": "XYZ"
+                },
+                {
+                    "name": "Vertices Format index",
+                    "value": 0
+                },
+                {
+                    "name": "Vertices Format",
+                    "value": "XYZ"
+                },
+                {
+                    "name": "Calc Normals index",
+                    "value": 0
+                },
+                {
+                    "name": "Calc Normals",
+                    "value": "Auto"
+                },
+                {
+                    "name": "Hide Nodes",
+                    "value": 0
+                },
+                {
+                    "name": "Use Material Properties",
+                    "value": 0
+                },
+                {
+                    "name": "Active",
+                    "value": 1
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "Generator",
+                    "value": "Sketchfab-13.28.0"
+                },
+                {
+                    "name": "GLTF Version",
+                    "value": 2
+                },
+                {
+                    "name": "Anim Length",
+                    "value": 0
+                },
+                {
+                    "name": "Anim Time",
+                    "value": 0
+                },
+                {
+                    "name": "Loading",
+                    "value": false
+                }
+            ]
+        },
+        {
+            "opId": "c8fb181e-0b03-4b41-9e55-06b6267bc634",
+            "id": "kl0meq8sy",
+            "uiAttribs": {
+                "mathTitle": true,
+                "history": {
+                    "createdAt": 1723719139212,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723719145434,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": -35.213159867448375,
+                    "y": 731.6329552184922
+                },
+                "disabled": false
+            },
+            "portsIn": [
+                {
+                    "name": "number2",
+                    "value": -90
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "result",
+                    "links": [
+                        {
+                            "portIn": "rotX",
+                            "portOut": "result",
+                            "objIn": "19m3ick78",
+                            "objOut": "kl0meq8sy"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "6ee346d0-614e-4709-91a5-dc21ae975caf",
+            "id": "9t93n14zt",
+            "uiAttribs": {
+                "history": {
+                    "createdAt": 1723726486368,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723727329482,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": -400.1281224863951,
+                    "y": 1088.4074460223192
+                },
+                "disabled": false
+            },
+            "portsIn": [
+                {
+                    "name": "radius",
+                    "value": 0.5
+                },
+                {
+                    "name": "stacks",
+                    "value": 70
+                },
+                {
+                    "name": "slices",
+                    "value": 70
+                },
+                {
+                    "name": "Filloffset",
+                    "value": 1
+                },
+                {
+                    "name": "Render",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "opId": "650baeb1-db2d-4781-9af6-ab4e9d4277be",
+            "id": "odewxasbv",
+            "uiAttribs": {
+                "history": {
+                    "createdAt": 1723726491985,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723727341127,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": -400.1281224863951,
+                    "y": 1016.2930610079384
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "posX",
+                    "value": 0.08
+                },
+                {
+                    "name": "posY",
+                    "value": 0.39
+                },
+                {
+                    "name": "posZ",
+                    "value": -0.86
+                },
+                {
+                    "name": "scale",
+                    "value": 1.59
+                },
+                {
+                    "name": "rotX",
+                    "value": 0
+                },
+                {
+                    "name": "rotY",
+                    "value": 0
+                },
+                {
+                    "name": "rotZ",
+                    "value": 0
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "trigger",
+                    "links": [
+                        {
+                            "portIn": "render",
+                            "portOut": "trigger",
+                            "objIn": "9t93n14zt",
+                            "objOut": "odewxasbv"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "opId": "ec55d252-3843-41b1-b731-0482dbd9e72b",
+            "id": "gg3q1gr64",
+            "uiAttribs": {
+                "history": {
+                    "createdAt": 1723726585816,
+                    "createdBy": {
+                        "name": "vihanpereraux"
+                    },
+                    "lastInteractionAt": 1723727357350,
+                    "lastInteractionBy": {
+                        "name": "vihanpereraux"
+                    }
+                },
+                "translate": {
+                    "x": -400.1281224863951,
+                    "y": 944.1683069834916
+                }
+            },
+            "portsIn": [
+                {
+                    "name": "r",
+                    "value": 0.0392156862745098
+                },
+                {
+                    "name": "g",
+                    "value": 0.0392156862745098
+                },
+                {
+                    "name": "b",
+                    "value": 0.0392156862745098
+                },
+                {
+                    "name": "a",
+                    "value": 1
+                },
+                {
+                    "name": "colorizeTexture",
+                    "value": 0
+                },
+                {
+                    "name": "Vertex Colors",
+                    "value": 0
+                },
+                {
+                    "name": "Alpha Mask Source index",
+                    "value": 0
+                },
+                {
+                    "name": "Alpha Mask Source",
+                    "value": "Luminance"
+                },
+                {
+                    "name": "Opacity TexCoords Transform",
+                    "value": 0
+                },
+                {
+                    "name": "Discard Transparent Pixels",
+                    "value": 0
+                },
+                {
+                    "name": "diffuseRepeatX",
+                    "value": 1
+                },
+                {
+                    "name": "diffuseRepeatY",
+                    "value": 1
+                },
+                {
+                    "name": "Tex Offset X",
+                    "value": 0
+                },
+                {
+                    "name": "Tex Offset Y",
+                    "value": 0
+                },
+                {
+                    "name": "Crop TexCoords",
+                    "value": 0
+                },
+                {
+                    "name": "billboard",
+                    "value": 0
+                }
+            ],
+            "portsOut": [
+                {
+                    "name": "trigger",
+                    "links": [
+                        {
+                            "portIn": "render",
+                            "portOut": "trigger",
+                            "objIn": "odewxasbv",
+                            "objOut": "gg3q1gr64"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "visibility": "private",
+    "users": [],
+    "usersReadOnly": [],
+    "userOps": [],
+    "tags": [],
+    "name": "green gold",
+    "userId": "62df47a46e58b5879c9e401f",
+    "cachedUsername": "vihanpereraux",
+    "updatedByUser": "vihanpereraux",
+    "log": [
+        {
+            "_id": "66bd4c07147939e0dfe7581c",
+            "created": "2024-08-15T00:29:59.389Z",
+            "key": "patch_created",
+            "text": "[vihanpereraux](/user/vihanpereraux) created patch",
+            "id": "66bd4c07147939e0dfe7581c"
+        },
+        {
+            "_id": "66bddcc786b67f583d854073",
+            "created": "2024-08-15T10:47:35.697Z",
+            "key": "file_deleted",
+            "text": "[vihanpereraux](/user/vihanpereraux) deleted \"cal_cut.jpeg\"",
+            "id": "66bddcc786b67f583d854073"
+        },
+        {
+            "_id": "66bdf5ee35fbca581d67a0dc",
+            "created": "2024-08-15T12:34:54.951Z",
+            "key": "patch_export",
+            "text": "Exported patch to \"download\" by [vihanpereraux](/user/vihanpereraux) (Export 1)",
+            "id": "66bdf5ee35fbca581d67a0dc"
+        }
+    ],
+    "creator": "62df47a46e58b5879c9e401f",
+    "created": "2024-08-15T00:29:59.389Z",
+    "updated": "2024-08-15T13:11:04.420Z",
+    "shortId": "Gwavtl",
+    "__v": 0,
+    "ui": {
+        "viewBox": {},
+        "timeLineLength": 20,
+        "texPreview": {},
+        "bookmarks": [],
+        "viewBoxesGl": {
+            "0": {
+                "x": -139.97867254774576,
+                "y": 461.4412315954254,
+                "z": 1212.409759024048
+            }
+        },
+        "renderer": {
+            "w": 647,
+            "h": 548,
+            "s": 1
+        }
+    },
+    "views": 0,
+    "statsAdmin": {
+        "sizeAssets": 0,
+        "sizeScreenshots": 0,
+        "sizeExports": 0
+    },
+    "deployments": {
+        "lastDeployment": {
+            "date": 1723725294951,
+            "service": "download",
+            "number": 1
+        }
+    },
+    "exports": 2,
+    "link": "/p/Gwavtl",
+    "thumbnail": "/thumb/l/66bd4c07147939e0dfe7581a/thumb.webp",
+    "id": "66bd4c07147939e0dfe7581a"
+}
