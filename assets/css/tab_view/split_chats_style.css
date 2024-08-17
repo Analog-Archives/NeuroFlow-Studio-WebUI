@@ -86,6 +86,10 @@
     overflow-y: auto;
 }
 
+#chatbox_wrapper2::-webkit-scrollbar {
+    width: .1px;
+}
+
 #promptbox_wrapper2 {
     height: calc((100vh - 75px) * .1);
     /* border: 1px solid green; */
