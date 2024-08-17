@@ -12,22 +12,9 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- stylesheet -->
-    <link rel="stylesheet" href="../../../assets/css/style.css">
-    <link rel="stylesheet" href="../../../assets/css/navbar_style.css">
-    <link rel="stylesheet" href="../../../assets/css/data_studio_style.css">
-
-    <!-- scripts -->
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <!-- all charts -->
-    <script type="module" src="../../../assets/js/charts/alpha-chart.js"></script>
-    <script type="module" src="../../../assets/js/charts/beta-chart.js"></script>
-    <script type="module" src="../../../assets/js/charts/gamma-chart.js"></script>
-    <script type="module" src="../../../assets/js/charts/delta-chart.js"></script>
-    <script type="module" src="../../../assets/js/charts/theta-chart.js"></script>
-
-    <!-- configs -->
-    <script type="module" src="../assets/js/script.js"></script>
-
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/navbar_style.css">
+    <link rel="stylesheet" href="../../assets/css/tab_view/split_chats_style.css">
 </head>
 
 <body>
@@ -69,16 +56,31 @@
     <!-- charts wrapper -->
     <div class="container-fluid universal-container">
         <div id="data_studio_wrapper" class="mx-auto d-block">
-            <div id="chatbox_wrapper">
+            <div id="left-panel">
+                <div id="chatbox_wrapper"></div>
+
+                <div id="promptbox_wrapper" class="my-auto">
+                    <div style="display: flex;">
+                        <div class="input-group">
+                            <input id="prompt-box" type="text" class="form-control shadow-none"
+                                placeholder="Ask anything from your dataset" aria-label="Ask anything" aria-describedby="basic-addon1">
+                        </div>
+                        <button class="btn shadow-none" id="send-button">Send</button>
+                    </div>
+                </div>
             </div>
 
-            <div id="promptbox_wrapper" class="my-auto">
-                <div style="display: flex;">
-                    <div class="input-group">
-                        <input type="text" class="form-control shadow-none" placeholder="Ask anything"
-                            aria-label="Ask anything" aria-describedby="basic-addon1">
+            <div id="right-panel">
+                <div id="chatbox_wrapper2"></div>
+
+                <div id="promptbox_wrapper2" class="my-auto">
+                    <div style="display: flex;">
+                        <div class="input-group">
+                            <input id="prompt-box2" type="text" class="form-control shadow-none" placeholder="Chat with AI assistant"
+                                aria-label="Chat" aria-describedby="basic-addon1">
+                        </div>
+                        <button class="btn shadow-none" id="send-button2">Send</button>
                     </div>
-                    <button class="btn shadow-none" id="send-button">Send</button>
                 </div>
             </div>
         </div>
@@ -88,6 +90,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <!-- configs -->
+    <script type="module" src="../../assets/js/chat/split_chats.js"></script>
 </body>
 
 </html>

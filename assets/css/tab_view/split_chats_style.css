@@ -1,0 +1,126 @@
+.universal-container {
+    margin-top: 18px;
+}
+
+.chat-bubble {
+    background-color: #0A0A0A;
+    color: white;
+    width: max-content;
+    max-width: 100%;
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: default;
+    transition: all .15s ease-in-out;
+}
+
+#data_studio_wrapper {
+    width: 90%;
+    height: calc(100vh - 75px);
+    display: flex !important;
+}
+
+#left-panel {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50%;
+    /* border: 1px solid purple; */
+}
+
+#right-panel {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50%;
+    /* border: 1px solid orange; */
+}
+
+#chatbox_wrapper {
+    height: calc((100vh - 75px) * .9);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#chatbox_wrapper::-webkit-scrollbar {
+    width: .1px;
+}
+
+#promptbox_wrapper {
+    height: calc((100vh - 75px) * .1);
+    /* border: 1px solid green; */
+    padding-top: 10px;
+}
+
+#promptbox_wrapper input {
+    border: none;
+    background-color: #0A0A0A;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#send-button {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(221, 221, 221);
+    width: 12%;
+    border-radius: 8px;
+    margin-left: 8px;
+}
+
+#promptbox_wrapper input::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(91, 91, 91);
+}
+
+/* right panel stylings */
+#chatbox_wrapper2 {
+    height: calc((100vh - 75px) * .9);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#chatbox_wrapper2::-webkit-scrollbar {
+    width: .1px;
+}
+
+#promptbox_wrapper2 {
+    height: calc((100vh - 75px) * .1);
+    /* border: 1px solid green; */
+    padding-top: 10px;
+}
+
+#promptbox_wrapper2 input {
+    border: none;
+    background-color: #0A0A0A;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#promptbox_wrapper2 input::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(91, 91, 91);
+}
+
+
+#send-button2 {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(221, 221, 221);
+    width: 12%;
+    border-radius: 8px;
+    margin-left: 8px;
+}
+
+/* end of right panel stylings */
